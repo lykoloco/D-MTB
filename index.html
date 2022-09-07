@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>D-MTB eCommerce</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="apple-touch-icon" href="assets/img/apple-icon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/templatemo.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+
+    <!-- Load fonts style after rendering the layout styles -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700;900&display=swap">
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+
+</head>
+
+<body>
+    <!-- Start Top Nav -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-light d-none d-lg-block" id="templatemo_nav_top">
+        <div class="container text-light">
+            <div class="w-100 d-flex justify-content-between">
+                <div>
+                    <i class="fa fa-envelope mx-2"></i>
+                    <a class="navbar-sm-brand text-light text-decoration-none" href="mailto:info@company.com">tiago29b@gmail.com</a>
+                    <i class="fa fa-phone mx-2"></i>
+                    <a class="navbar-sm-brand text-light text-decoration-none" href="tel:010-020-0340">+57 323 697 58 34</a>
+                </div>
+                <div>
+                    <a class="text-light" href="https://fb.com/templatemo" target="_blank" rel="sponsored"><i class="fab fa-facebook-f fa-sm fa-fw me-2"></i></a>
+                    <a class="text-light" href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram fa-sm fa-fw me-2"></i></a>
+                    <a class="text-light" href="https://twitter.com/" target="_blank"><i class="fab fa-twitter fa-sm fa-fw me-2"></i></a>
+                    <a class="text-light" href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin fa-sm fa-fw"></i></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Close Top Nav -->
+
+
+    <!-- Header -->
+    <nav class="navbar navbar-expand-lg navbar-light shadow">
+        <div class="container d-flex justify-content-between align-items-center">
+
+            <a class="navbar-brand text-success logo h1 align-self-center" href="index.html">
+                D-MTB
+            </a>
+
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#templatemo_main_nav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="align-self-center collapse navbar-collapse flex-fill  d-lg-flex justify-content-lg-between" id="templatemo_main_nav">
+                <div class="flex-fill">
+                    <ul class="nav navbar-nav d-flex justify-content-between mx-lg-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="shop.html">Tienda</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="navbar align-self-center d-flex">
+                    <div class="d-lg-none flex-sm-fill mt-3 mb-4 col-7 col-sm-auto pr-3">
+                        <div class="input-group">
+                            <input type="text" class="form-control" id="inputMobileSearch" placeholder="Search ...">
+                            <div class="input-group-text">
+                                <i class="fa fa-fw fa-search"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="nav-icon d-none d-lg-inline" href="#" data-bs-toggle="modal" data-bs-target="#templatemo_search">
+                        <i class="fa fa-fw fa-search text-dark mr-2"></i>
+                    </a>
+                    <a class="nav-icon position-relative text-decoration-none" href="#">
+                        <i class="fa fa-fw fa-cart-arrow-down text-dark mr-1"></i>
+                        <span class="position-absolute top-0 left-100 translate-middle badge rounded-pill bg-light text-dark">+</span>
+                    </a>
+                    <a class="nav-icon position-relative text-decoration-none" href="#">
+                        <i class="fa fa-fw fa-user text-dark mr-3"></i>
+                        <span class="position-absolute top-0 left-100 translate-middle badge rounded-pill bg-light text-dark">+99</span>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </nav>
+    <!-- Close Header -->
+
+    <!-- Modal -->
+    <div class="modal fade bg-white" id="templatemo_search" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="w-100 pt-1 mb-5 text-right">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form action="" method="get" class="modal-content modal-body border-0 p-0">
+                <div class="input-group mb-2">
+                    <input type="text" class="form-control" id="inputModalSearch" name="q" placeholder="Search ...">
+                    <button type="submit" class="input-group-text bg-success text-light">
+                        <i class="fa fa-fw fa-search text-white"></i>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+
+    <!-- Start Banner Hero -->
+    <div id="template-mo-zay-hero-carousel" class="carousel slide" data-bs-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-bs-target="#template-mo-zay-hero-carousel" data-bs-slide-to="0" class="active"></li>
+            <li data-bs-target="#template-mo-zay-hero-carousel" data-bs-slide-to="1"></li>
+            <li data-bs-target="#template-mo-zay-hero-carousel" data-bs-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="container">
+                    <div class="row p-5">
+                        <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
+                            <a href="shop.html"><img class="img-fluid" src="./assets/img/DSC02839_baja.webp" alt=""></a>
+                        </div>
+                        <div class="col-lg-6 mb-0 d-flex align-items-center">
+                            <div class="text-align-left align-self-center">
+                                <h1 class="h1 text-success"><b>D-MTB</b> eCommerce</h1>
+                                <h3 class="h2">Donde podras encontrar todo para tu bici, desde manubrios, hasta rines 29...</h3>
+                                <p>
+                                    En D-MTB te podremos dar asesoria sobre todo lo que necesitas para mejorar tu rendimiento
+                                    en el deporte extremo entre otros relacioandos con el ciclismo y MTB.
+                                    siguenos en redes, asi no te perderar de nada...
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="container">
+                    <div class="row p-5">
+                        <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
+                            <a href="shop.html"><img class="img-fluid" src="./assets/img/DSC02834_baja.webp" alt=""></a>
+                        </div>
+                        <div class="col-lg-6 mb-0 d-flex align-items-center">
+                            <div class="text-align-left">
+                                <h1 class="h1">Podras realizar</h1>
+                                <h3 class="h2">Tu proyecto a tu gusto</h3>
+                                <p>
+                                    Elije cada componente de tu bici, de acuerdo a tus necesidades y precio. 
+                                    Deja que <strong>Tu mente</strong> de rienda suelta a tu imaginacion, ajusta tu presupuesto a tu gusto.
+                                    D-MTB inspira a tu mente.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="container">
+                    <div class="row p-5">
+                        <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
+                            <a href="shop.html"><img class="img-fluid" src="./assets/img/DSC02831_baja.webp" alt=""></a>
+                        </div>
+                        <div class="col-lg-6 mb-0 d-flex align-items-center">
+                            <div class="text-align-left">
+                                <h1 class="h1">Cuentamos con</h1>
+                                <h3 class="h2">Productos Garantizados a 100%. </h3>
+                                <p>
+                                    Todo lo que encuentres en este lugar esta garantizado por diferentes marcas. 
+                                    Componentes de calidad para tu exigencia a la hora de hacer deporte.
+                                    D-MTB busca que tu experiencia sea satisfactoria
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev text-decoration-none w-auto ps-3" href="#template-mo-zay-hero-carousel" role="button" data-bs-slide="prev">
+            <i class="fas fa-chevron-left"></i>
+        </a>
+        <a class="carousel-control-next text-decoration-none w-auto pe-3" href="#template-mo-zay-hero-carousel" role="button" data-bs-slide="next">
+            <i class="fas fa-chevron-right"></i>
+        </a>
+    </div>
+    <!-- End Banner Hero -->
+
+
+    <!-- Start Categories of The Month -->
+    <section class="container py-5">
+        <div class="row text-center pt-3">
+            <div class="col-lg-6 m-auto">
+                <h1 class="h1">Categorias y lo que debes de saber antes de comprar</h1>
+                <p>
+                    Explora cada opcion de nuestra pagina, encuetra lo que buscas, no te vayas sin satisfacer tu necesidad.  
+                </p>
+            </div>
+        </div>
+        <div class="col-md-8 text-white">
+            <br><br>
+                    <h1>(DH/DHI) o Downhill</h1>
+                    <p>
+                        El downhill consiste exclusivamente en descender. Ni siquiera hay que completar subidas para después 
+                        poder bajar, como en el enduro, pues los trayectos se pueden completar en camionetas o en telesilla.
+                        <br><br>
+                        Los descensos se deben completar en el menor tiempo posible, y el terreno no estará exento de obstáculos que hacen que esta 
+                        disciplina sea más exigente que las ya mencionadas. Hay que tener buena condición física y técnica para combinar la alta 
+                        velocidad con inclinaciones y saltos.
+                        <br><br>
+                        Dadas las características de la actividad, se intuye que es la que debe utilizar frenos más potentes entres los diferentes 
+                        tipos de bici de montaña. Lo más frecuente es que lleven doble suspensión y el recorrido de amortiguación sea de hasta 220 mm. 
+                        Las ruedas de 27,5”, aunque cada vez se usan más las de 29”.
+                    </p>
+                    <h1>Trail (TR)</h1>
+                    <p>
+                        Los que practican trail están entre los tipos de ciclistas más conocidos de la montaña, pues se trata de una de las actividades 
+                        más practicadas junto al XC. Se suele ubicar en algún punto entre el XC y el All mountain.
+                        <br><br>
+                        No está pensada para competir, sino para disfrutar de la montaña. De hecho, la suelen elegir tanto principiantes como ciclistas 
+                        experimentados que quieren disfrutar de la montaña.
+                        <br><br>
+                        Las bicis de esta modalidad son de doble suspensión (también pueden ser rígidas) y deben presentar equilibrio entre rendimiento 
+                        y manejabilidad. Sus recorridos están entre los 120 y los 140 mm.
+                    </p>
+                    <h1>(XC) Cross Country</h1>
+                    <p>
+                        Es el tipo de MTB más conocido en España, pues se trata del más practicado. Los caminos por los que discurren no conforman 
+                        excesiva dificultad técnica, pues son anchos y no suelen contar con obstáculos como piedras, rampas o terrenos embarrados. 
+                        De hecho, abunda el pedaleo y las distancias se pueden adaptar al nivel, desde los 5 hasta los 40 km aproximadamente.
+                        <br><br>
+                        Las bicis que se utilizan tiene características heterogéneas: desde las habituales de montaña que se suelen ver en los caminos 
+                        a las que cuentan con características más específicas. Por lo general, se usan bicicletas con suspensión delantera o con doble 
+                        suspensión, que pueden presentar opciones de bloqueo para ganar rigidez y poder transmitir potencia a las ruedas.
+                    </p>
+                    <h1>All Mountain (AM)</h1>
+                    <p>
+                        También es una de las categorías de ciclismo de montaña más populares, aunque la dificultad técnica es mayor. Las subidas no 
+                        tienen que comportar excesivos escollos, pero las bajadas implican velocidades y obstáculos para los que sí se requiere condición 
+                        física y cierto conocimiento de la técnica.
+                        <br><br>
+                        También, por supuesto, se necesita una bicicleta adecuada. En este caso, el recorrido de las suspensiones está entre los 130 y 
+                        los 150 mm y las ruedas tienen generalmente 29”. Se puede usar una bici de de Trail para practicar esta modalidad (incluso de XC), 
+                        pues la geometría es parecida y los grupos de transmisión de 11 o 12 velocidades, monoplato en la mayoría de los casos.
+                    </p>
+                    <h1>Enduro</h1>
+                    <p>
+                        Mezcla características del Downhill y del Cross Country, y es uno de los tipos de ciclismo de montaña que más crecimiento ha 
+                        experimentado en los últimos años, en España y en el mundo. Lo que cuenta son las bajadas, que se deben hacer a la mayor velocidad 
+                        posible. Las subidas se completan por el camino más accesible hasta la cima para ahorrar energía.
+                        <br><br>
+                        Se emplean bicicletas de doble suspensión con recorridos de entre 150 y 170 mm, en muchos casos con amortiguadores de muelle. Las 
+                        ruedas pueden ser de 25,5” o de 29”, porque son más rápidas al bajar.
+                        <br><br>
+                        Dado que hay que completar bajadas a gran velocidad, los frenos deben ser potentes. En el mercado están ganando peso los sistemas 
+                        de cuatro pistones o los de dos discos delanteros de 200 mm.
+                    </p>
+                    <h1>Freeride (FR)</h1>
+                    <p>
+                        Probablemente, es el tipo de ciclismo de montaña que entraña más riesgo. Quienes lo practican tienen gustos comunes: espíritu aventurero 
+                        y pasión por las bajadas.
+                        <br><br>
+                        Las realizan por lugares que no constituyen senderos trazados, sino terrenos inexplorados que resultan escarpados y tienen mucha inclinación. 
+                        Depende del freeride, porque algunos, aunque no usan senderos, sí estudian previamente el terreno e incluso llevan el equipo necesario para 
+                        crear algún salto.
+                        <br><br>
+                        Dado que las bajadas son las protagonistas, las bicicletas son parecidas las de downhill. Las suspensiones son más largas (entre 180 y 200 mm, 
+                        generalmente), hay menos marchas y los frenos son muy potentes.
+                    </p>
+                    <h1>Dirt Jump (DJ)</h1>
+                    <p>
+                        Es una modalidad de Bicycle MotoCross (BMX) con la que se efectúan saltos y acrobacias en el aire: dobles, tabletops, ski jumps, rollers, step 
+                        ups, etc. Su historia se remonta a finales de los años 60, pero en la actualidad se han habilitado espacios especiales para su práctica y ha 
+                        ganado popularidad.
+                        <br><br>
+                        Las bicicletas de dirt jump deben ser ligeras, aunque lo bastante rígidas. Solo cuentan con horquilla delantera de hasta 120 mm, y la suspensión 
+                        es por aire. Es de las pocas disciplinas de montaña en las que se siguen utilizando ruedas de 26”, y lo habitual es que solo incorporen freno 
+                        trasero y un único piñón y plato para aliviar peso y evitar posibles fallos.
+                    </p>
+                </div>
+        <div class="row">
+            <div class="col-12 col-md-4 p-5 mt-3">
+                <a href="shop.html"><img src="./assets/img/protecciones.webp" class="rounded-circle img-fluid border"></a>
+                <h5 class="text-center mt-3 mb-3">Proteciones</h5>
+                <p class="text-center"><a class="btn btn-success" href="shop.html">Ir a Tienda</a></p>
+                
+            </div>
+            <div class="col-12 col-md-4 p-5 mt-3">
+                <a href="shop.html"><img src="./assets/img/Componentes.webp" class="rounded-circle img-fluid border"></a>
+                <h2 class="h5 text-center mt-3 mb-3">Componentes</h2>
+                <p class="text-center"><a class="btn btn-success" href="shop.html">Ir a Tienda</a></p>
+            </div>
+            <div class="col-12 col-md-4 p-5 mt-3">
+                <a href="shop.html"><img src="./assets/img/Marcos.jpg" class="rounded-circle img-fluid border"></a>
+                <h2 class="h5 text-center mt-3 mb-3">Marcos</h2>
+                <p class="text-center"><a class="btn btn-success" href="shop.html">Ir a Tienda</a></p>
+            </div>
+        </div>
+    </section>
+    <!-- End Categories of The Month -->
+
+
+    <!-- Start Featured Product -->
+    <section class="bg-light">
+        <div class="container py-5">
+            <div class="row text-center py-3">
+                <div class="col-lg-6 m-auto">
+                    <h1 class="h1">Productos Recomendados</h1>
+                    <p>
+                        Esto quiza te guste, Pruebalo y cambia tu experiencia.
+                        Llevalo, no te arrepentiras.
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-4 mb-4">
+                    <div class="card h-100">
+                        <a href="https://s.click.aliexpress.com/e/_De3qGC7">
+                            <img src="./assets/img/img producto _2/Lexon-Cuadro-de-carbono-29er-Plus-2022x12mm-eje-pasante-boost-15-17-19-pulgadas-BSA-XDB.jpg" class="card-img-top" alt="...">
+                        </a>
+                        <div class="card-body">
+                            <ul class="list-unstyled d-flex justify-content-between">
+                                <li>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-muted fa fa-star"></i>
+                                    <i class="text-muted fa fa-star"></i>
+                                </li>
+                                <li class="text-muted text-right">USD $303.57</li>
+                            </ul>
+                            <a href="" class="h2 text-decoration-none text-dark">Marco LEXON</a>
+                            <p class="card-text">
+                                Cuadro de Aleación de Carbono para Bicicleta de Montaña, Marco de Bici LEXON, Rodado 29, Eje Pasante, Soporte Inferior, BSA BOOST, 148x12 mm, 2022.
+                            </p>
+                            <p class="text-muted">Reviews (24)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 mb-4">
+                    <div class="card h-100">
+                        <a href="https://s.click.aliexpress.com/e/_DlJYCNH">
+                            <img src="./assets/img/img producto _3/BXT-Cuadro-de-bicicleta-de-monta-a-con-suspensi-n-completa-de-carbono-29er-BSA-XC.jpg_Q90.jpg_.jpg" class="card-img-top" alt="...">
+                        </a>
+                        <div class="card-body">
+                            <ul class="list-unstyled d-flex justify-content-between">
+                                <li>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-muted fa fa-star"></i>
+                                    <i class="text-muted fa fa-star"></i>
+                                </li>
+                                <li class="text-muted text-right">USD $581.40</li>
+                            </ul>
+                            <a href="shop-single.html" class="h2 text-decoration-none text-dark">BXT-Cuadro</a>
+                            <p class="card-text">
+                                Bicicleta de montaña con suspensión completa de carbono 29er, BSA, XC, marco de viaje, 100mm, eje pasante, 142x142/148x12mm.
+                            </p>
+                            <p class="text-muted">Reviews (48)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 mb-4">
+                    <div class="card h-100">
+                        <a href="https://s.click.aliexpress.com/e/_DFhBv0n">
+                            <img src="./assets/img/img producto _1/THRUST-Cuadro-de-carbono-para-bicicleta-de-monta-a-2022-29er-15-17-19-carga-m.png" class="card-img-top" alt="...">
+                        </a>
+                        <div class="card-body">
+                            <ul class="list-unstyled d-flex justify-content-between">
+                                <li>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-warning fa fa-star"></i>
+                                </li>
+                                <li class="text-muted text-right">USD $319.95</li>
+                            </ul>
+                            <a href="shop-single.html" class="h2 text-decoration-none text-dark">THRUST-Cuadro-de-carbono</a>
+                            <p class="card-text">
+                                Bicicleta de montaña, 2022, 29er, 15, 17, 19, carga máxima de 250kg, 2 años de garantía, 12 colores.
+                            </p>
+                            <p class="text-muted">Reviews (74)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 mb-4">
+                    <div class="card h-100">
+                        <a href="https://s.click.aliexpress.com/e/_DdLqPIx">
+                            <img src="./assets/img/img producto _4/LEXON-Cuadro-de-bicicleta-de-monta-a-de-carbono-suspensi-n-completa-29-XC-Rockshox-XDB.jpg_640x640.jpg" class="card-img-top" alt="...">
+                        </a>
+                        <div class="card-body">
+                            <ul class="list-unstyled d-flex justify-content-between">
+                                <li>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-muted fa fa-star"></i>
+                                    <i class="text-muted fa fa-star"></i>
+                                </li>
+                                <li class="text-muted text-right">USD $728.54</li>
+                            </ul>
+                            <a href="shop-single.html" class="h2 text-decoration-none text-dark">LEXON-Cuadro</a>
+                            <p class="card-text">
+                                LEXON-Cuadro de bicicleta de montaña de carbono, suspensión completa 29, XC, Rockshox XDB, 2022.
+                            </p>
+                            <p class="text-muted">Reviews (24)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 mb-4">
+                    <div class="card h-100">
+                        <a href="https://s.click.aliexpress.com/e/_DeZDvbd">
+                            <img src="./assets/img/img producto _5/ZOOM-HB-875-Kit-de-frenos-hidr-ulicos-para-bicicleta-de-monta-a-juego-de-frenos.jpg_Q90.jpg_.jpg" class="card-img-top" alt="...">
+                        </a>
+                        <div class="card-body">
+                            <ul class="list-unstyled d-flex justify-content-between">
+                                <li>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-muted fa fa-star"></i>
+                                    <i class="text-muted fa fa-star"></i>
+                                </li>
+                                <li class="text-muted text-right">USD $50.37</li>
+                            </ul>
+                            <a href="shop-single.html" class="h2 text-decoration-none text-dark">ZOOM-HB-875-Kit-de-frenos</a>
+                            <p class="card-text">
+                                ZOOM HB-875-Kit de frenos hidráulicos para bicicleta de montaña, juego de frenos de disco de presión de aceite, piezas delanteras y traseras, 800/1400mm.
+                            </p>
+                            <p class="text-muted">Reviews (48)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 mb-4">
+                    <div class="card h-100">
+                        <a href="https://s.click.aliexpress.com/e/_DeuUUoL">
+                            <img src="./assets/img/img producto _6/SHIMANO-Cadena-de-cambio-de-marchas-DEORE-SL-M5100-M5100SGS-11S-desviador-de-bicicleta-de-monta.jpg_Q90.jpg_.jpg" class="card-img-top" alt="...">
+                        </a>
+                        <div class="card-body">
+                            <ul class="list-unstyled d-flex justify-content-between">
+                                <li>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-warning fa fa-star"></i>
+                                </li>
+                                <li class="text-muted text-right">USD $147.26</li>
+                            </ul>
+                            <a href="shop-single.html" class="h2 text-decoration-none text-dark">SHIMANO-(Cadena,Cambios)</a>
+                            <p class="card-text">
+                                SHIMANO-Cadena de cambio de marchas DEORE SL-M5100 M5100SGS 11S, desviador de bicicleta de montaña, 11V, KMC X11, volante SUNSHINE 42T/46/50/52T, Kit Original.
+                            </p>
+                            <p class="text-muted">Reviews (74)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 mb-4">
+                    <div class="card h-100">
+                        <a href="https://s.click.aliexpress.com/e/_DF7iyeB">
+                            <img src="./assets/img/img producto _7/LTWOO-palanca-de-cambios-A7-1X10S-desviador-cassette-SUNSHINE-42T-46T-50T-cadenas-VXM.jpg_Q90.jpg_.jpg" class="card-img-top" alt="...">
+                        </a>
+                        <div class="card-body">
+                            <ul class="list-unstyled d-flex justify-content-between">
+                                <li>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-muted fa fa-star"></i>
+                                    <i class="text-muted fa fa-star"></i>
+                                </li>
+                                <li class="text-muted text-right">$68.67</li>
+                            </ul>
+                            <a href="shop-single.html" class="h2 text-decoration-none text-dark">KIT-(TLWOO)</a>
+                            <p class="card-text">
+                                LTWOO-palanca de cambios A7 1X10S, desviador, cassette SUNSHINE, 42T, 46T, 50T, cadenas VXM.
+                            </p>
+                            <p class="text-muted">Reviews (24)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 mb-4">
+                    <div class="card h-100">
+                        <a href="https://s.click.aliexpress.com/e/_DEtpG99">
+                        <img src="./assets/img/img producto _8/Bolany-Horquilla-de-suspensi-n-para-bicicleta-de-aleaci-n-de-magnesio-accesorio-para-bici-de.jpg_640x640.jpg" class="card-img-top" alt="...">
+                        </a>
+                        <div class="card-body">
+                            <ul class="list-unstyled d-flex justify-content-between">
+                                <li>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-muted fa fa-star"></i>
+                                    <i class="text-muted fa fa-star"></i>
+                                </li>
+                                <li class="text-muted text-right">USD $101.00</li>
+                            </ul>
+                            <a href="shop-single.html" class="h2 text-decoration-none text-dark">Bolany-Horquilla</a>
+                            <p class="card-text">
+                                Bolany-Horquilla de suspensión para bicicleta de aleación de magnesio, accesorio para bici de montaña, mountain bike, MTB, 26, 27.5 o 29 pulgadas, 32 RL 100mm.
+                            </p>
+                            <p class="text-muted">Reviews (48)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 mb-4">
+                    <div class="card h-100">
+                        <a href="https://s.click.aliexpress.com/e/_DFTubb5">
+                            <img src="./assets/img/img producto _9/Horquilla-de-ciclismo-para-bicicleta-de-monta-a-suspensi-n-neum-tica-enchufe-26-27-5.jpg_Q90.jpg_.jpg" class="card-img-top" alt="...">
+                        </a>
+                        <div class="card-body">
+                            <ul class="list-unstyled d-flex justify-content-between">
+                                <li>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-warning fa fa-star"></i>
+                                </li>
+                                <li class="text-muted text-right">USD $143.99</li>
+                            </ul>
+                            <a href="shop-single.html" class="h2 text-decoration-none text-dark">SR SUNTOUR EPIXON-Horquillas</a>
+                            <p class="card-text">
+                                Horquilla de ciclismo para bicicleta de montaña, suspensión neumática, enchufe 26, 27,5, 29er, 32MM, 120MM, SR SUNTOUR EPIXON.
+                            </p>
+                            <p class="text-muted">Reviews (74)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    <!-- End Featured Product -->
+
+
+    <!-- Start Footer -->
+    <footer class="bg-dark" id="tempaltemo_footer">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-4 pt-5">
+                    <h2 class="h2 text-success border-bottom pb-3 border-light logo">D-MTB</h2>
+                    <ul class="list-unstyled text-light footer-link-list">
+                        <li>
+                            <i class="fas fa-map-marker-alt fa-fw"></i>
+                            virtual
+                        </li>
+                        <li>
+                            <i class="fa fa-phone fa-fw"></i>
+                            <a class="text-decoration-none" href="tel:010-020-0340">+57 323 697 58 34</a>
+                        </li>
+                        <li>
+                            <i class="fa fa-envelope fa-fw"></i>
+                            <a class="text-decoration-none" href="mailto:info@company.com">tiago29b@gmail.com</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4 pt-5">
+                    <h2 class="h2 text-light border-bottom pb-3 border-light">Productos</h2>
+                    <ul class="list-unstyled text-light footer-link-list">
+                        <li><a class="text-decoration-none" href="#">Ensambles</a></li>
+                        <li><a class="text-decoration-none" href="#">Asesoria</a></li>
+                        <li><a class="text-decoration-none" href="#">Horquilla</a></li>
+                        <li><a class="text-decoration-none" href="#">Manubrios</a></li>
+                        <li><a class="text-decoration-none" href="#">Suspencion</a></li>
+                        <li><a class="text-decoration-none" href="#">kit Frenos</a></li>
+                        <li><a class="text-decoration-none" href="#">kit cadena, cambios</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4 pt-5">
+                    <h2 class="h2 text-light border-bottom pb-3 border-light">Further Info</h2>
+                    <ul class="list-unstyled text-light footer-link-list">
+                        <li><a class="text-decoration-none" href="#">Inicio</a></li>
+                        <li><a class="text-decoration-none" href="#">Nosotros</a></li>
+                        <li><a class="text-decoration-none" href="#">local virtual (redes)</a></li>
+                        <li><a class="text-decoration-none" href="#">Contacto</a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="row text-light mb-4">
+                <div class="col-12 mb-3">
+                    <div class="w-100 my-3 border-top border-light"></div>
+                </div>
+                <div class="col-auto me-auto">
+                    <ul class="list-inline text-left footer-icons">
+                        <li class="list-inline-item border border-light rounded-circle text-center">
+                            <a class="text-light text-decoration-none" target="_blank" href="http://facebook.com/"><i class="fab fa-facebook-f fa-lg fa-fw"></i></a>
+                        </li>
+                        <li class="list-inline-item border border-light rounded-circle text-center">
+                            <a class="text-light text-decoration-none" target="_blank" href="https://www.instagram.com/"><i class="fab fa-instagram fa-lg fa-fw"></i></a>
+                        </li>
+                        <li class="list-inline-item border border-light rounded-circle text-center">
+                            <a class="text-light text-decoration-none" target="_blank" href="https://twitter.com/"><i class="fab fa-twitter fa-lg fa-fw"></i></a>
+                        </li>
+                        <li class="list-inline-item border border-light rounded-circle text-center">
+                            <a class="text-light text-decoration-none" target="_blank" href="https://www.linkedin.com/"><i class="fab fa-linkedin fa-lg fa-fw"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <!--div class="col-auto">
+                    <label class="sr-only" for="subscribeEmail">Email address</label>
+                    <div class="input-group mb-2">
+                        <input type="text" class="form-control bg-dark border-light" id="subscribeEmail" placeholder="Email address">
+                        <div class="input-group-text btn-success text-light">Subscribe</div>
+                    </div>
+                </div-->
+            </div>
+        </div>
+
+        <div class="w-100 bg-black py-3">
+            <div class="container">
+                <div class="row pt-2">
+                    <div class="col-12">
+                        <p class="text-left text-light">
+                            Copyright &copy; 2022 Company D-MTB(Lykoloco) 
+                            | Editor by <a rel="sponsored" href="@Lykoloco" target="_blank">@Lykoloco</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <!-- End Footer -->
+
+    <!--Disaning for credit by: templatemo-->
+    
+    <!-- Start Script -->
+    <script src="assets/js/jquery-1.11.0.min.js"></script>
+    <script src="assets/js/jquery-migrate-1.2.1.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/templatemo.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <!-- End Script -->
+</body>
+
+</html>
